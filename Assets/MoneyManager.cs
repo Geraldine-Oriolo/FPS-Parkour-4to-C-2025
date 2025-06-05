@@ -19,5 +19,6 @@ public class MoneyManager : MonoBehaviour
             Debug.Log("No te alcanza");
         }
         money += moneyToAdd;
+        uiManager.UpdateMoneyTxT(money.ToString());
     }
 }
